@@ -1,21 +1,21 @@
-Analisis Regresi Linear Berganda terhadap Faktor-Faktor yang Mempengaruhi Kalori yang Terbakar
+# Analisis Regresi Linear Berganda terhadap Faktor-Faktor yang Mempengaruhi Kalori yang Terbakar
 
-Deskripsi Proyek
+## Deskripsi Proyek
 
 Proyek ini merupakan implementasi analisis regresi linear berganda menggunakan RStudio untuk mengetahui faktor-faktor yang memengaruhi jumlah kalori yang terbakar saat berolahraga.
 
-Tujuan
+## Tujuan
 
-* Menganalisis pengaruh usia, jenis kelamin, tinggi badan, berat badan, durasi olahraga, detak jantung, dan suhu tubuh terhadap jumlah kalori yang terbakar.
-* Membangun model regresi linear berganda.
-* Melakukan evaluasi model melalui uji asumsi klasik.
+- Menganalisis pengaruh usia, jenis kelamin, tinggi badan, berat badan, durasi olahraga, detak jantung, dan suhu tubuh terhadap jumlah kalori yang terbakar.
+- Membangun model regresi linear berganda.
+- Melakukan evaluasi model melalui uji asumsi klasik.
 
-Dataset
+## Dataset
 
-* Dataset: Calories Burnt Prediction
-* Sumber: Kaggle
+- **Dataset:** Calories Burnt Prediction
+- **Sumber:** Kaggle
 
-Metode
+## Metode
 
 1. Import dataset
 2. Eksplorasi data
@@ -27,33 +27,35 @@ Metode
 8. Uji Normalitas Residual
 9. Uji Heteroskedastisitas (Breusch-Pagan)
 
-File
+## File
 
-* Analisis_Regresi.R
-* calories.csv
+- `Analisis_Regresi.R`
+- `calories.csv`
 
-Cara Menjalankan
+## Cara Menjalankan
 
 1. Download repository.
 2. Buka project di RStudio.
-3. Jalankan script Analisis_Regresi.R dari awal hingga akhir.
-4. Hasil analisis akan tampil pada Console dan Plots.
+3. Jalankan file `Analisis_Regresi.R` dari awal hingga selesai.
+4. Hasil analisis akan muncul pada Console dan Plots.
 
-Hasil
+## Hasil
 
 Program menghasilkan:
 
-* Statistik deskriptif
-* Scatter plot
-* Matriks korelasi
-* Model regresi linear berganda
-* Nilai R², uji F, dan uji t
-* Nilai VIF
-* Plot diagnostik regresi
-* Uji Breusch-Pagan
+- Statistik deskriptif
+- Scatter plot
+- Matriks korelasi
+- Model regresi linear berganda
+- Nilai R²
+- Uji F
+- Uji t
+- Nilai VIF
+- Plot diagnostik regresi
+- Uji Breusch-Pagan
 
-Author
+## Author
 
-Tugas Proyek Data dengan R
-Program Studi Sains Data
+Tugas Proyek Data dengan R  
+Program Studi Sains Data  
 Telkom University Surabaya
